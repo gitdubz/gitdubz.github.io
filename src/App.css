@@ -1,0 +1,16 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+hr {
+  border: 1px solid #fff;
+}
+
+hr.dark {
+  border-color: #999;
+}
+
+.underline {
+  text-decoration: underline;
+}
