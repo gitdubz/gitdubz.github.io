@@ -5,6 +5,7 @@ a {
 
 hr {
   border: 1px solid #fff;
+  border-bottom: 0;
 }
 
 hr.dark {
@@ -13,4 +14,10 @@ hr.dark {
 
 .underline {
   text-decoration: underline;
+}
+
+@media print {
+  .pageBreak {
+    page-break-after: always;
+  }
 }

@@ -7,6 +7,9 @@ export const customTheme = createMuiTheme({
   palette: {
     type: 'light',
     primary: blue
+  },
+  typography: {
+    // fontFamily: 'Roboto'
   }
 });
 

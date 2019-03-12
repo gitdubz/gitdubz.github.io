@@ -1,5 +1,6 @@
-import React, { Fragment } from 'react';
-import { Typography, IconButton, Icon } from '@material-ui/core';
+import React from 'react';
+import { Typography } from '@material-ui/core';
+import classNames from 'classnames';
 import { withStyles } from '@material-ui/core/styles';
 import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
@@ -62,7 +63,7 @@ const PersonalDetails = ({
       target="_blank"
       rel="noopener noreferrer"
     >
-      <LinkedInIcon className={[classes.icon, classes.socialIcon].join(' ')} />
+      <LinkedInIcon className={classNames(classes.icon, classes.socialIcon)} />
     </a>
     <a
       href={twitter.url}
@@ -70,7 +71,7 @@ const PersonalDetails = ({
       target="_blank"
       rel="noopener noreferrer"
     >
-      <TwitterIcon className={[classes.icon, classes.socialIcon].join(' ')} />
+      <TwitterIcon className={classNames(classes.icon, classes.socialIcon)} />
     </a>
     <a
       href={github.url}
@@ -78,7 +79,7 @@ const PersonalDetails = ({
       target="_blank"
       rel="noopener noreferrer"
     >
-      <GithubIcon className={[classes.icon, classes.socialIcon].join(' ')} />
+      <GithubIcon className={classNames(classes.icon, classes.socialIcon)} />
     </a>
   </div>
 );

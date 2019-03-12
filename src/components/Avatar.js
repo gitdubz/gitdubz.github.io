@@ -1,4 +1,5 @@
 import React from 'react';
+import classNames from 'classnames';
 import { withStyles } from '@material-ui/core/styles';
 import ProfilePic from '../assets/images/dw.png';
 
@@ -15,7 +16,7 @@ const Avatar = ({ classes }) => (
   <img
     title="De Wet van der Merwe"
     alt="De Wet van der Merwe"
-    className={[classes.rounded, classes.img].join(' ')}
+    className={classNames(classes.rounded, classes.img)}
     src={ProfilePic}
   />
 );

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import classnames from 'classnames';
 import { withStyles } from '@material-ui/core/styles';
 import { Typography } from '@material-ui/core';
 
@@ -8,9 +9,16 @@ const styles = theme => ({
     marginBottom: theme.spacing.unit * 8,
     color: '#666',
     textAlign: 'justify',
+    '& hr': {
+      borderColor: '#999',
+      margin: '2.5em 0'
+    },
     [`@media (max-width: ${theme.breakpoints.values.md}px)`]: {
       textAlign: 'left'
     }
+  },
+  noMargin: {
+    marginBottom: 0
   },
   heading: {
     position: 'relative',
@@ -34,7 +42,8 @@ const styles = theme => ({
   },
   contentContainer: {
     display: 'flex',
-    padding: theme.spacing.unit * 2
+    padding: `${theme.spacing.unit * 2}px ${theme.spacing.unit * 4}px ${theme
+      .spacing.unit * 2}px ${theme.spacing.unit * 2}px `
   },
   icon: {
     borderLeft: '1px solid #999',
@@ -56,6 +65,19 @@ const styles = theme => ({
   },
   content: {
     padding: theme.spacing.unit * 5,
+    '& h3': {
+      textDecoration: 'underline',
+      marginBottom: 0
+    },
+    '& h4': {
+      marginBottom: -(theme.spacing.unit * 2),
+      marginTop: theme.spacing.unit * 4,
+      fontSize: 16
+    },
+    '& h5': {
+      marginTop: 5,
+      fontWeight: 'normal'
+    },
     [`@media (max-width: ${theme.breakpoints.values.md}px)`]: {
       padding: theme.spacing.unit
     }
@@ -64,9 +86,11 @@ const styles = theme => ({
 
 class InfoBlock extends Component {
   render() {
-    const { classes, heading, icon, children } = this.props;
+    const { classes, heading, icon, children, noMargin } = this.props;
     return (
-      <section className={classes.root}>
+      <section
+        className={classnames(classes.root, noMargin && classes.noMargin)}
+      >
         <Typography variant="h6" className={classes.heading}>
           {heading}
         </Typography>

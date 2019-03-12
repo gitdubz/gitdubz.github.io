@@ -37,6 +37,7 @@ const chips = [
   'Foundation',
   'Cloud Firestore',
   'React-intl',
+  'React Native',
   'Jest',
   'Glamorous',
   'Emotion',

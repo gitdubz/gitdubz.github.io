@@ -5,10 +5,13 @@
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "@material-ui/icons": "^3.0.2",
+    "classnames": "^2.2.6",
+    "markdown-to-jsx": "^6.9.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-icons": "^3.5.0",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "typeface-nunito": "^0.0.72"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -24,5 +27,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "raw.macro": "^0.3.0"
+  }
 }
