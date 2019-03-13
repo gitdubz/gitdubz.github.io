@@ -33,6 +33,7 @@ const styles = theme => ({
     },
     [`@media (max-width: ${theme.breakpoints.values.md}px), @media print`]: {
       flexDirection: 'row',
+      justifyContent: 'center',
       height: 'auto'
     },
     [`@media (max-width: ${theme.breakpoints.values.sm}px)`]: {
