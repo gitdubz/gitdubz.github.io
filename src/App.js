@@ -32,8 +32,11 @@ const styles = theme => ({
       marginRight: 16
     },
     [`@media (max-width: ${theme.breakpoints.values.md}px), @media print`]: {
-      justifyContent: 'center',
       flexDirection: 'row',
+      height: 'auto'
+    },
+    [`@media (max-width: ${theme.breakpoints.values.sm}px)`]: {
+      flexDirection: 'column',
       height: 'auto'
     }
   },
