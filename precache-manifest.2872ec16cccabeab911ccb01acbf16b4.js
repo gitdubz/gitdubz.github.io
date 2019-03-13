@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/gitdubz.github.io/static/media/nunito-latin-400italic.ef2e2a0d.woff"
   },
   {
-    "revision": "366d8b080bff3fe98269",
+    "revision": "957d1cc755e22685fff6",
     "url": "/gitdubz.github.io/static/css/main.4c490222.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/gitdubz.github.io/static/js/runtime~main.fda14a62.js"
   },
   {
-    "revision": "602859bd469800c6205701f5a16b1a1b",
-    "url": "/gitdubz.github.io/static/media/nunito-latin-900italic.602859bd.woff"
+    "revision": "ae87e7b4e2d3825919b9bc6c82039b80",
+    "url": "/gitdubz.github.io/static/media/nunito-latin-900italic.ae87e7b4.woff2"
   },
   {
     "revision": "dfce47910d8ef0e66d41",
@@ -24,20 +24,20 @@ self.__precacheManifest = [
     "url": "/gitdubz.github.io/static/media/dw.69029618.png"
   },
   {
-    "revision": "2a4f4b0a3646be9d8560178ebc4306e5",
-    "url": "/gitdubz.github.io/static/media/nunito-latin-200.2a4f4b0a.woff2"
-  },
-  {
     "revision": "249c20ee4450b15795cdde4cbb5f38d8",
     "url": "/gitdubz.github.io/static/media/nunito-latin-200.249c20ee.woff"
   },
   {
-    "revision": "89ba5530f3b2c751f2a49e25f31e3f15",
-    "url": "/gitdubz.github.io/static/media/nunito-latin-200italic.89ba5530.woff2"
-  },
-  {
     "revision": "67d3d63c0ac28ccbc0c0fcbda8e66e04",
     "url": "/gitdubz.github.io/static/media/nunito-latin-200italic.67d3d63c.woff"
+  },
+  {
+    "revision": "2a4f4b0a3646be9d8560178ebc4306e5",
+    "url": "/gitdubz.github.io/static/media/nunito-latin-200.2a4f4b0a.woff2"
+  },
+  {
+    "revision": "89ba5530f3b2c751f2a49e25f31e3f15",
+    "url": "/gitdubz.github.io/static/media/nunito-latin-200italic.89ba5530.woff2"
   },
   {
     "revision": "895205e22ad7d4d866df7102352077cd",
@@ -68,8 +68,8 @@ self.__precacheManifest = [
     "url": "/gitdubz.github.io/static/media/nunito-latin-400italic.6ca737af.woff2"
   },
   {
-    "revision": "366d8b080bff3fe98269",
-    "url": "/gitdubz.github.io/static/js/main.ccf84c3a.chunk.js"
+    "revision": "957d1cc755e22685fff6",
+    "url": "/gitdubz.github.io/static/js/main.68237c09.chunk.js"
   },
   {
     "revision": "b10ecee279e3a8d11d5ec3193b68d8bf",
@@ -128,15 +128,15 @@ self.__precacheManifest = [
     "url": "/gitdubz.github.io/static/media/nunito-latin-900.cbf4339e.woff"
   },
   {
-    "revision": "ae87e7b4e2d3825919b9bc6c82039b80",
-    "url": "/gitdubz.github.io/static/media/nunito-latin-900italic.ae87e7b4.woff2"
+    "revision": "602859bd469800c6205701f5a16b1a1b",
+    "url": "/gitdubz.github.io/static/media/nunito-latin-900italic.602859bd.woff"
   },
   {
     "revision": "dfce47910d8ef0e66d41",
     "url": "/gitdubz.github.io/static/css/2.2a740831.chunk.css"
   },
   {
-    "revision": "4b4dca9acccd1494781bd2e535d525c5",
+    "revision": "58a8a6d2b40a501310a05c0c628fe777",
     "url": "/gitdubz.github.io/index.html"
   }
 ];
